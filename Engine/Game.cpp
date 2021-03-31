@@ -53,7 +53,7 @@ void Game::UpdateModel()
 void Game::ComposeFrame()
 {
 	bencher.Start();
-
+	//sdfds
 	for( const auto& pos : positions )
 	{
 		gfx.DrawSprite( pos.x,pos.y,s,SpriteEffect::Copy{} );
